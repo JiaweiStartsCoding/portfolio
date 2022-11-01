@@ -24,3 +24,14 @@ STYLESHEETS.forEach((stylesheet) => {
   $('head').append(stylesheet);
   
 })
+
+// import scripts
+
+
+const SCRIPTS = [
+  `/scripts/header-footer.js`
+]
+
+SCRIPTS.forEach((script) => {
+  $.getScript(script);
+})
